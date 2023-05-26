@@ -1,0 +1,57 @@
+.main{
+    /* padding: 5px 20px; */
+    background-color: EEE;
+}
+
+table{
+    margin: 20px auto;
+    width: 41%;
+
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+}
+.btn{
+  margin-left: 10px;
+  padding: 5px 20px;
+  background-color: blueviolet;
+  border-radius: 5px;
+  border: 0px;
+  color: white;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.search-input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 0px;
+}
+table, td,th{
+    border: 1px solid black;
+}
+td,th{
+    padding: 10px;
+}
+.slno{
+    text-align: center;
+}
+.logo>h1{
+    margin-left: 20px;
+    color: white;
+}
+.search{
+    margin-right: 20px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px ;
+}
+.link:hover, .active{
+    cursor: pointer;
+    color: yellow;
+}
